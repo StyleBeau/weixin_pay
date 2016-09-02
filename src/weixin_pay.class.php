@@ -1013,6 +1013,6 @@ class weixin_notify extends weixin_pay_sdk{
 				'return_msg'  => $return_msg
 			);
 		}
-		echo $xmldata=self::ToXml($data);
+		echo $xmldata=self::ArrayXml($data);
 	}
 }
